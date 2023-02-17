@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_tiers",
+  "info": {
+    "singularName": "pricing-tier",
+    "pluralName": "pricing-tiers",
+    "displayName": "Pricing Tier"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "tierId": {
+      "type": "string",
+      "unique": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "priceMonthly": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "features": {
+      "type": "json"
+    }
+  }
+}
