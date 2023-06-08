@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_contact_forms",
+  "info": {
+    "displayName": "ContactForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name_label": {
+      "type": "string"
+    },
+    "Email_label": {
+      "type": "string"
+    },
+    "Phone_label": {
+      "type": "string"
+    },
+    "Message_label": {
+      "type": "string"
+    },
+    "Submit_label": {
+      "type": "string"
+    },
+    "Name_placeholder": {
+      "type": "string"
+    },
+    "Email_placeholder": {
+      "type": "string"
+    },
+    "Phone_placeholder": {
+      "type": "string"
+    },
+    "Message_placeholder": {
+      "type": "string"
+    }
+  }
+}

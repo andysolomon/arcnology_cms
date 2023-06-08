@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pricing_content_secondary_contents",
+  "info": {
+    "displayName": "SecondaryContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    },
+    "Services": {
+      "displayName": "CustomServices",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-custom.custom-services"
+    }
+  }
+}

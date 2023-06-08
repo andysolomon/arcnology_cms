@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nav_links",
+  "info": {
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "isIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "Icon": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "car",
+        "boat",
+        "plane"
+      ]
+    }
+  }
+}

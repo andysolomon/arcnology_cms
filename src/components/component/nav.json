@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_navs",
+  "info": {
+    "displayName": "Nav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.link"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_directory_footers",
+  "info": {
+    "displayName": "Directory",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav.link"
+    }
+  }
+}

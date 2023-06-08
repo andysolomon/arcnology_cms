@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_component_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Illustration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "HeroButtons": {
+      "displayName": "Hero Buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.hero-buttons"
+    }
+  }
+}

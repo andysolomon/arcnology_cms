@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SectionHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    },
+    "MediaElement": {
+      "displayName": "Media Element",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.media-element"
+    }
+  }
+}

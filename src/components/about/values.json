@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_values",
+  "info": {
+    "displayName": "Values"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    }
+  }
+}

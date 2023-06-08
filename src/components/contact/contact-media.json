@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contact_contact_medias",
+  "info": {
+    "displayName": "ContactMedia"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Icon": {
+      "type": "enumeration",
+      "enum": [
+        "boat",
+        "car",
+        "plane",
+        "train"
+      ]
+    }
+  }
+}

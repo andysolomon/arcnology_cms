@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_visions",
+  "info": {
+    "displayName": "Vision"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    }
+  }
+}

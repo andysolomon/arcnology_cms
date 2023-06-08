@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_pricing_custom_basics",
+  "info": {
+    "displayName": "Tiers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Pricing": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-custom.custom-services"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    }
+  }
+}

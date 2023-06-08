@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_component_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ContactMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact-media"
+    },
+    "ContactForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.form"
+    }
+  }
+}

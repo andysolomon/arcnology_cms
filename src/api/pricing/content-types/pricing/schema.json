@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    },
+    "CustomMain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-custom.main-content"
+    },
+    "CustomSecondary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-custom.secondary-content"
+    },
+    "CustomServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-custom.custom-services"
+    },
+    "BasicTier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-support.basic"
+    },
+    "PremiumTier": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing-support.basic"
+    }
+  }
+}

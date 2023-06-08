@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pricing_content_main_contents",
+  "info": {
+    "displayName": "MainContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    }
+  }
+}

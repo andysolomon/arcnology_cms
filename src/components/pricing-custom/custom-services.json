@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pricing_content_custom_services",
+  "info": {
+    "displayName": "CustomServices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Service": {
+      "type": "string"
+    }
+  }
+}

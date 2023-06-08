@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_about_founders",
+  "info": {
+    "displayName": "AboutFounder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    },
+    "Prose": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_contact_infos",
+  "info": {
+    "displayName": "ContactInfo"
+  },
+  "options": {},
+  "attributes": {
+    "ContactMedia": {
+      "displayName": "ContactMedia",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact-media"
+    }
+  }
+}

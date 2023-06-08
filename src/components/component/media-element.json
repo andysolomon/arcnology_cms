@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_component_media_elements",
+  "info": {
+    "displayName": "Media Element",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "enumeration",
+      "enum": [
+        "globe",
+        "mail",
+        "user",
+        "scissors"
+      ]
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

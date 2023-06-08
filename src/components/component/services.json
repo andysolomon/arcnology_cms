@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_services",
+  "info": {
+    "displayName": "Services"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.section-header"
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.media-element"
+    }
+  }
+}
